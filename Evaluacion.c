@@ -1,18 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main() {
+    int num1; // declaramos la variable para el número a convertir
+    printf("Ingrese el numero que desea transformar en hexadecimal: ");
+    scanf("%d", &num1); // solicitamos el valor que el usuario desea transformar
 
-int num1, hexa;//declaro las variables globales que se van a nesesitar
+    // imprimimos el número ingresado y su valor hexadecimal
+    printf("%d en hexadecimal = %x\n", num1, num1);
 
-char hexal
-//solicitamos el valor que el usuario desea transformar
-printf("Ingrese el numero que desea transformar en hexadecimal");
-
-scanf("%i",&num1);
-
-//Se imprime el numero el numero que ingreso y el numero en hexadecimal 
-printf("%i en hexadecimal = %x\n", num1, num1);
-
-return 0;
-
+    return 0;
 }
