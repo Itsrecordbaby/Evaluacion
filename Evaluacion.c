@@ -8,10 +8,11 @@ char hexal
 //solicitamos el valor que el usuario desea transformar
 printf("Ingrese el numero que desea transformar en hexadecimal");
 
-scanf(%i,&num1)
+scanf("%i",&num1);
 
+//Se imprime el numero el numero que ingreso y el numero en hexadecimal 
+printf("%i en hexadecimal = %x\n", num1, num1);
 
-
-
+return 0;
 
 }
